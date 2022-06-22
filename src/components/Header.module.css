@@ -1,0 +1,43 @@
+.header {
+  height: 1017px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 120px;
+  margin: 52px auto 0 120px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 17px auto 0 262px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 61px;
+  width: 1099px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.infomation {
+  display: flex;
+  gap: 151px;
+}
+
+.trees {
+  position: absolute;
+  width: 388px;
+  height: 420.16px;
+  margin-left: 1412px;
+  margin-top: 598px;
+}
