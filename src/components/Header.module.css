@@ -1,21 +1,20 @@
-.header {
-  height: 1017px;
-}
-
 .heading {
   font-weight: 700;
   font-size: 120px;
   margin: 52px auto 0 120px;
+  line-height: 141px;
+  letter-spacing: 0.05em;
 }
 
 .details {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 17px auto 0 262px;
   align-items: flex-start;
   justify-content: center;
   gap: 61px;
-  width: 1099px;
+  width: 100%;
 }
 
 .subtitle {
@@ -35,9 +34,9 @@
 }
 
 .trees {
-  position: absolute;
   width: 388px;
   height: 420.16px;
   margin-left: 1412px;
-  margin-top: 598px;
+
+  align-self: flex-end;
 }

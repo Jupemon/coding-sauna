@@ -1,15 +1,12 @@
 import React from "react";
 
 import styles from "./Navbar.module.css";
+import Logo from "../assests/LogoPNG.png";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <div className={styles.nav}>
-      <img
-        src={process.env.PUBLIC_URL + "/LogoPNG.png"}
-        alt="Coding Sauna Logo"
-        className={styles.logo}
-      />
+      <img src={Logo} alt="Coding Sauna Logo" className={styles.logo} />
       <div className={styles.heading}>
         <a href="/">Home</a>
         <a href="/">About Us</a>

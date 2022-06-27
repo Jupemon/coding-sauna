@@ -1,15 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-  --main-bg: #fffdf3;
+  --white: #fffdf3;
   --green: #0e4505;
   --yellow: #ffd500;
-  --font-color: #473c38;
+  --brown: #473c38;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: var(--main-bg);
-  color: var(--font-color);
+  background-color: var(--white);
+  color: var(--brown);
 }
