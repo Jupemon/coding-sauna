@@ -9,8 +9,8 @@ const Navbar: React.FC = () => {
       <img src={Logo} alt="Coding Sauna Logo" className={styles.logo} />
       <div className={styles.heading}>
         <a href="/">Home</a>
-        <a href="/">About Us</a>
-        <a href="/">News</a>
+        <a href="#organizers">About Us</a>
+        <a href="#news">News</a>
       </div>
     </div>
   );

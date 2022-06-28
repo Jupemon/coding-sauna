@@ -3,8 +3,8 @@ import styles from "./Organizers.module.css";
 
 const Organizers: React.FC = () => {
   return (
-    <div className={styles.organizers}>
-      <h1 className={styles.heading}>The organizers</h1>
+    <div className={styles.organizers} id="organizers">
+      <h1>The organizers</h1>
       <div className={styles.people}>
         <div className={styles.profile}>
           <div className={styles.profileImg}></div>

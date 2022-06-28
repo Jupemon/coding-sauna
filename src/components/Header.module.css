@@ -1,42 +1,37 @@
-.heading {
-  font-weight: 700;
-  font-size: 120px;
-  margin: 52px auto 0 120px;
-  line-height: 141px;
-  letter-spacing: 0.05em;
+.detailsBox {
+  display: flex;
+  justify-content: space-between;
 }
 
 .details {
+  margin: 1rem;
+  margin-left: 16rem;
+  margin-top: 3rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 17px auto 0 262px;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  gap: 61px;
-  width: 100%;
+  gap: 3rem;
 }
 
 .subtitle {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .description {
   font-weight: 300;
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 2rem;
 }
 
 .infomation {
   display: flex;
-  gap: 151px;
+  gap: 9.4rem;
 }
 
 .trees {
-  width: 388px;
-  height: 420.16px;
-  margin-left: 1412px;
-
+  width: 24rem;
+  height: 26rem;
+  margin-right: 7.5rem;
+  margin-top: 13rem;
   align-self: flex-end;
 }

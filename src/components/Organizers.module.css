@@ -1,15 +1,3 @@
-.organizers {
-  height: 1491px;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 120px;
-  margin: 67px auto 0 120px;
-  line-height: 141px;
-  letter-spacing: 0.05em;
-}
-
 .people {
   display: flex;
   justify-content: center;

@@ -1,15 +1,6 @@
 .supporters {
-  height: 1222px;
   background-color: var(--green);
   color: var(--white);
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 120px;
-  line-height: 141px;
-  margin: 50px auto auto 120px;
-  letter-spacing: 0.05em;
 }
 
 .details {
@@ -24,9 +15,9 @@ h1 {
   height: 700px;
 }
 
-p {
+/* p {
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
   text-align: center;
-}
+} */

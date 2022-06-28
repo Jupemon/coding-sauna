@@ -19,3 +19,25 @@ body {
   background-color: var(--white);
   color: var(--brown);
 }
+
+h1 {
+  font-weight: 700;
+  font-size: 7.5rem;
+  padding-top: 4rem;
+  padding-left: 7.5rem;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+a:hover {
+  text-decoration: underline;
+}

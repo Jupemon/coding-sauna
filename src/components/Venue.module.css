@@ -1,15 +1,10 @@
 .venue {
-  height: 1017px;
   background-color: var(--green);
   color: var(--white);
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 120px;
-  line-height: 141px;
-  margin: 50px auto 0 120px;
-  letter-spacing: 0.05em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8.8rem;
 }
 
 .details {
@@ -17,8 +12,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 54px;
-  width: 775px;
+  gap: 3.3rem;
   margin-left: 134px;
   margin-top: 54px;
   color: #fff;
@@ -26,11 +20,6 @@ h1 {
 
 .addressBox {
   gap: 4px;
-}
-
-h2 {
-  font-size: 56px;
-  font-weight: 500;
 }
 
 .description {
@@ -49,12 +38,15 @@ h2 {
 }
 
 .map {
-  width: 750px;
-  margin: 118px 119px auto 1051px;
-
-  /* position: absolute; */
+  margin: 7.5rem 7.5rem 7.5rem auto;
 }
 
-a {
+.informationLink {
   color: #fff;
+}
+
+.information {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
 }
