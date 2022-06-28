@@ -17,27 +17,22 @@ const Venue: React.FC = () => {
             </p>
           </div>
 
-          <div className={styles.informationBox}>
-            <p className={styles.information}>
-              Tribe Tampere has the run of Platform6's 5th floor, so <br /> be
-              sure to join us there. You can check out more of <br />
-              Tribe Tampere's events and services{" "}
-              <a
-                className={styles.informationLink}
-                href="https://tribetampere.com/"
-              >
-                here
-              </a>
-              , or take a look <br /> at everything Platform6 has to offer{" "}
-              <a
-                className={styles.informationLink}
-                href="https://platform6.fi/"
-              >
-                here
-              </a>
-              .
-            </p>
-          </div>
+          <p className={styles.information}>
+            Tribe Tampere has the run of Platform6's 5th floor, so <br /> be
+            sure to join us there. You can check out more of <br />
+            Tribe Tampere's events and services{" "}
+            <a
+              className={styles.informationLink}
+              href="https://tribetampere.com/"
+            >
+              here
+            </a>
+            , or take a look <br /> at everything Platform6 has to offer{" "}
+            <a className={styles.informationLink} href="https://platform6.fi/">
+              here
+            </a>
+            .
+          </p>
         </div>
       </div>
       <div className={styles.map}>

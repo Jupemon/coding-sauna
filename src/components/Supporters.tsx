@@ -10,30 +10,35 @@ const Supporters: React.FC = () => {
   return (
     <div className={styles.supporters}>
       <h1>Our supporters</h1>
+
       <div className={styles.details}>
         <div className={styles.card}>
           <div>
-            <img src={TreLogo} alt="Tre's logo" />
+            <img src={TreLogo} alt="Tre's logo" className={styles.logo} />
           </div>
-          <p>
+          <p className={styles.description}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo
             erat, bibendum vel est id, venenatis egestas justo.
           </p>
-          <button>Visit us</button>
+          <button className={styles.visit}>
+            <a href="https://tamperees.com/">Visit us</a>
+          </button>
         </div>
 
         <div className={styles.card}>
           <div>
-            <img src={TribeLogo} alt="Tribe's logo" />
+            <img src={TribeLogo} alt="Tribe's logo" className={styles.logo} />
           </div>
-          <p>
+          <p className={styles.description}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo
             erat, bibendum vel est id, venenatis egestas justo.
           </p>
-          <button>Visit us</button>
+          <button className={styles.visit}>
+            <a href="https://tribetampere.com/">Visit us</a>
+          </button>
         </div>
 
-        <div className={styles.card}>
+        {/* <div className={styles.card}>
           <div>
             <img src={TampereGamehubLogo} alt="Tampere Gamehub's logo" />
           </div>
@@ -53,7 +58,7 @@ const Supporters: React.FC = () => {
             erat, bibendum vel est id, venenatis egestas justo.
           </p>
           <button>Visit us</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
