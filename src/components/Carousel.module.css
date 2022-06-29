@@ -1,0 +1,26 @@
+.carousel {
+  overflow: hidden;
+  display: flex;
+  gap: 3rem;
+  margin-top: 7.5rem;
+  padding-bottom: 13rem;
+}
+
+.inner {
+  width: 140rem;
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carouselItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrows {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}

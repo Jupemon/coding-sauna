@@ -6,60 +6,90 @@ import TribeLogo from "../assests/TribeLogo.png";
 import TampereGamehubLogo from "../assests/TampereGameHubLogo.png";
 import DashboaLogo from "../assests/DashboaLogo.png";
 
+import Carousel, { CarouselItem } from "./Carousel";
+
 const Supporters: React.FC = () => {
   return (
     <div className={styles.supporters}>
       <h1>Our supporters</h1>
 
-      <div className={styles.details}>
-        <div className={styles.card}>
-          <div>
-            <img src={TreLogo} alt="Tre's logo" className={styles.logo} />
+      <Carousel>
+        <CarouselItem width={"10%"}>
+          <div className={styles.card}>
+            <div className={styles.logo}>
+              <img src={TreLogo} alt="Tre's logo" />
+            </div>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+              Proin <br /> leo erat, bibendum vel est id, <br /> venenatis
+              egestas justo.
+            </p>
+            <button className={styles.visit}>
+              <a href="https://tamperees.com/" className={styles.link}>
+                Visit us
+              </a>
+            </button>
           </div>
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo
-            erat, bibendum vel est id, venenatis egestas justo.
-          </p>
-          <button className={styles.visit}>
-            <a href="https://tamperees.com/">Visit us</a>
-          </button>
-        </div>
+        </CarouselItem>
 
-        <div className={styles.card}>
-          <div>
-            <img src={TribeLogo} alt="Tribe's logo" className={styles.logo} />
+        <CarouselItem width={"100%"}>
+          <div className={styles.card}>
+            <div className={styles.logo}>
+              <img
+                src={TribeLogo}
+                alt="Tribe's logo"
+                className={styles.tribeLogo}
+              />
+            </div>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+              Proin <br /> leo erat, bibendum vel est id, <br /> venenatis
+              egestas justo.
+            </p>
+            <button className={styles.visit}>
+              <a href="https://tribetampere.com/" className={styles.link}>
+                Visit us
+              </a>
+            </button>
           </div>
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo
-            erat, bibendum vel est id, venenatis egestas justo.
-          </p>
-          <button className={styles.visit}>
-            <a href="https://tribetampere.com/">Visit us</a>
-          </button>
-        </div>
+        </CarouselItem>
 
-        {/* <div className={styles.card}>
-          <div>
-            <img src={TampereGamehubLogo} alt="Tampere Gamehub's logo" />
+        <CarouselItem width={"100%"}>
+          <div className={styles.card}>
+            <div className={styles.logo}>
+              <img src={TampereGamehubLogo} alt="Tampere Gamehub's logo" />
+            </div>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+              Proin <br /> leo erat, bibendum vel est id, <br /> venenatis
+              egestas justo.
+            </p>
+            <button className={styles.visit}>
+              <a href="https://tampere.games/" className={styles.link}>
+                Visit us
+              </a>
+            </button>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo
-            erat, bibendum vel est id, venenatis egestas justo.
-          </p>
-          <button>Visit us</button>
-        </div>
+        </CarouselItem>
 
-        <div className={styles.card}>
-          <div>
-            <img src={DashboaLogo} alt="Dashboa's logo" />
+        <CarouselItem width={"100%"}>
+          <div className={styles.card}>
+            <div className={styles.logo}>
+              <img src={DashboaLogo} alt="Dashboa's logo" />
+            </div>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+              Proin <br /> leo erat, bibendum vel est id, <br /> venenatis
+              egestas justo.
+            </p>
+            <button className={styles.visit}>
+              <a href="https://dashboa.com/" className={styles.link}>
+                Visit us
+              </a>
+            </button>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo
-            erat, bibendum vel est id, venenatis egestas justo.
-          </p>
-          <button>Visit us</button>
-        </div> */}
-      </div>
+        </CarouselItem>
+      </Carousel>
     </div>
   );
 };
