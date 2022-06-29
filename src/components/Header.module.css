@@ -1,10 +1,10 @@
 .detailsBox {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15rem;
 }
 
 .details {
-  margin: 1rem;
   margin-left: 16rem;
   margin-top: 3rem;
   display: flex;
@@ -29,9 +29,121 @@
 }
 
 .trees {
-  width: 24rem;
-  height: 26rem;
-  margin-right: 7.5rem;
-  margin-top: 13rem;
+  position: relative;
+  right: 7.5rem;
+  top: 17.5rem;
   align-self: flex-end;
+}
+
+@media (max-width: 90rem) {
+  .details {
+    margin-left: 6.5rem;
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+
+  .infomation {
+    gap: 5rem;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 2rem;
+  }
+
+  .detailsBox {
+    margin-bottom: 10rem;
+  }
+
+  .trees {
+    width: 20rem;
+    right: 1rem;
+    top: 14rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  .details {
+    margin-left: 6.5rem;
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+
+  .infomation {
+    gap: 5rem;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 2rem;
+  }
+
+  .detailsBox {
+    margin-bottom: 10rem;
+  }
+
+  .trees {
+    width: 20rem;
+    right: 1rem;
+    top: 21rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .details {
+    margin-left: 5.5rem;
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+
+  .infomation {
+    gap: 4rem;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 2rem;
+  }
+
+  .detailsBox {
+    margin-bottom: 6rem;
+  }
+
+  .trees {
+    width: 12rem;
+    right: 0rem;
+    top: 30.5rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .details {
+    margin-left: 1rem;
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+
+  .infomation {
+    gap: 4rem;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    margin-bottom: 2rem;
+  }
+
+  .detailsBox {
+    margin-bottom: 0rem;
+    display: block;
+  }
+
+  .trees {
+    width: 12rem;
+    right: -9rem;
+    top: 0rem;
+  }
 }

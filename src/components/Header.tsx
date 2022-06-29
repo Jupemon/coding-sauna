@@ -34,8 +34,8 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className={styles.trees}>
-          <img src={trees} alt="Pine Trees" />
+        <div>
+          <img src={trees} alt="Pine Trees" className={styles.trees} />
         </div>
       </div>
     </div>

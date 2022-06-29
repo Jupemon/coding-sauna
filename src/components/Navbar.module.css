@@ -18,3 +18,42 @@
   gap: 4.6rem;
   margin-right: 7.5rem;
 }
+
+@media screen and (max-width: 64rem) {
+  .heading {
+    margin-right: 1rem;
+    font-size: 2rem;
+    gap: 2.5rem;
+  }
+
+  .logo {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .heading {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    gap: 2rem;
+  }
+
+  .logo {
+    width: 10rem;
+    height: 8rem;
+    margin-left: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .heading {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+
+  .logo {
+    width: 7.5rem;
+    height: 6rem;
+    margin-left: 3rem;
+  }
+}

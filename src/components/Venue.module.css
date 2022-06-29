@@ -29,7 +29,9 @@
 }
 
 .map {
-  margin: 7.5rem 7.5rem 7.5rem auto;
+  position: relative;
+  top: 7.5rem;
+  right: 7.5rem;
 }
 
 .informationLink {
@@ -39,4 +41,18 @@
 .information {
   font-weight: 300;
   font-size: 2rem;
+  margin-bottom: 28.8rem;
 }
+
+@media (max-width: 64rem) {
+  .map {
+    width: 30rem;
+    top: 7.5rem;
+    right: 7.5rem;
+  }
+
+  .information {
+    font-size: 2rem;
+    margin-bottom: 28.8rem;
+  }
+} ;

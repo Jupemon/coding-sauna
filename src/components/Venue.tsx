@@ -35,8 +35,8 @@ const Venue: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className={styles.map}>
-        <img src={Map} alt="Location Map" />
+      <div>
+        <img src={Map} alt="Location Map" className={styles.map} />
       </div>
     </div>
   );

@@ -41,3 +41,39 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 64rem) {
+  h1 {
+    font-size: 6rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  h1 {
+    font-size: 5.5rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  h1 {
+    font-size: 3.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
