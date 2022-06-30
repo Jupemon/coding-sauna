@@ -132,3 +132,20 @@
     top: 18.5rem;
   }
 }
+
+@media (max-width: 24rem) {
+  .details {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .detailsBox {
+    margin-bottom: 3rem;
+  }
+
+  .trees {
+    width: 5rem;
+    right: 0.5rem;
+    top: 19rem;
+  }
+}

@@ -139,3 +139,11 @@
     margin-top: 1.8rem;
   }
 }
+
+@media (max-width: 24rem) {
+  .map {
+    width: 12rem;
+    left: 4rem;
+    margin-bottom: 2rem;
+  }
+}

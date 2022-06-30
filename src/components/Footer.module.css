@@ -65,3 +65,21 @@ footer {
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 24rem) {
+  footer {
+    padding-left: 2rem;
+  }
+
+  .details {
+    font-size: 0.7rem;
+  }
+
+  .details li {
+    margin-bottom: 0.5rem;
+  }
+
+  .details > :first-child {
+    font-size: 1rem;
+  }
+}

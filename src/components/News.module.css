@@ -143,3 +143,50 @@
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 24rem) {
+  .card {
+    width: 17rem;
+    height: 33rem;
+    font-size: 1rem;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .title {
+    padding-top: 10rem;
+  }
+
+  .content {
+    align-items: flex-start;
+  }
+
+  .posts {
+    margin-left: 4rem;
+  }
+
+  .background,
+  .post,
+  .instaPosts {
+    width: 15rem;
+  }
+
+  .lastPost {
+    display: none;
+  }
+
+  .scrollBar {
+    margin-left: 0.4rem;
+    margin-bottom: 20rem;
+  }
+
+  .greenBar {
+    width: 0.75rem;
+  }
+
+  .whiteBar {
+    width: 0.5rem;
+    top: 0.1rem;
+    left: 0.1rem;
+  }
+}
