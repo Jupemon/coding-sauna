@@ -33,3 +33,35 @@ footer {
 .link {
   color: #fff;
 }
+
+@media (max-width: 48rem) {
+  .details {
+    font-size: 0.8rem;
+  }
+
+  .details li {
+    margin-bottom: 0.8rem;
+  }
+
+  .details > :first-child {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  footer {
+    padding-left: 3rem;
+    gap: 5rem;
+  }
+  .details {
+    font-size: 0.8rem;
+  }
+
+  .details li {
+    margin-bottom: 0.8rem;
+  }
+
+  .details > :first-child {
+    font-size: 1.2rem;
+  }
+}

@@ -1,8 +1,10 @@
 .people {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 7.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5rem;
+  justify-items: center;
+  text-align: center;
   margin: 6.5rem 7.5rem auto 7.5rem;
   color: var(--green);
 }
@@ -12,10 +14,6 @@
 }
 
 .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-weight: 500;
 }
 
@@ -33,4 +31,107 @@
 
 .profileEmail {
   font-size: 2rem;
+}
+
+@media (max-width: 90rem) {
+  .people {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 5rem 7.5rem auto 7.5rem;
+  }
+
+  .people:last-child {
+    margin-bottom: 6rem;
+  }
+
+  .profileImg {
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .profileName {
+    font-size: 2.5rem;
+  }
+
+  .profileEmail {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  .people {
+    margin-top: 5rem;
+    margin-left: 7rem;
+  }
+
+  .people:last-child {
+    margin-bottom: 6rem;
+  }
+
+  .profileImg {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .profileName {
+    font-size: 2rem;
+  }
+
+  .profileEmail {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .people {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+
+  .people:last-child {
+    margin-bottom: 4rem;
+  }
+
+  .profileImg {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .profileName {
+    font-size: 1.5rem;
+  }
+
+  .profileEmail {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  .people {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    gap: 2rem 1rem;
+  }
+
+  .profile {
+    width: 12rem;
+  }
+
+  .people:last-child {
+    margin-bottom: 4rem;
+  }
+
+  .profileImg {
+    width: 7rem;
+    height: 7rem;
+    margin: 0 2.5rem 1rem 2.5rem;
+  }
+
+  .profileName {
+    font-size: 1rem;
+  }
+
+  .profileEmail {
+    font-size: 0.7rem;
+  }
 }

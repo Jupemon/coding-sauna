@@ -18,16 +18,16 @@ const Venue: React.FC = () => {
           </div>
 
           <p className={styles.information}>
-            Tribe Tampere has the run of Platform6's 5th floor, so <br /> be
-            sure to join us there. You can check out more of <br />
-            Tribe Tampere's events and services{" "}
+            Tribe Tampere has the run of Platform6's 5th floor, so be sure to
+            join us there.
+            <br /> You can check out more of Tribe Tampere's events and services{" "}
             <a
               className={styles.informationLink}
               href="https://tribetampere.com/"
             >
               here
             </a>
-            , or take a look <br /> at everything Platform6 has to offer{" "}
+            ,<br /> or take a look at everything Platform6 has to offer{" "}
             <a className={styles.informationLink} href="https://platform6.fi/">
               here
             </a>

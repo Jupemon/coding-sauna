@@ -67,3 +67,79 @@
   left: 0.35rem;
   border-radius: 2rem;
 }
+
+@media (max-width: 90rem) {
+  .details {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  .details {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .card {
+    width: 25rem;
+    height: 47rem;
+    font-size: 1.2rem;
+    gap: 3rem;
+  }
+
+  .posts {
+    margin-left: 5rem;
+  }
+
+  .background,
+  .post,
+  .instaPosts {
+    width: 22rem;
+  }
+
+  .lastPost {
+    width: 13rem;
+  }
+
+  .content {
+    gap: 0rem;
+  }
+
+  .scrollBar {
+    margin-left: 0.4rem;
+    margin-bottom: 20rem;
+  }
+
+  .greenBar {
+    width: 0.75rem;
+  }
+
+  .whiteBar {
+    width: 0.5rem;
+    top: 0.1rem;
+    left: 0.1rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .details {
+    margin: 3rem auto 4rem 12rem;
+    display: block;
+  }
+
+  .card {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  .details {
+    margin: 2rem auto 4rem 1rem;
+    display: block;
+  }
+
+  .card {
+    margin-top: 2rem;
+  }
+}

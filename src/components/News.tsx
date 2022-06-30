@@ -16,7 +16,11 @@ const News: React.FC = () => {
         <div className={styles.card}>
           <p>[ Our lastest on Instagram ]</p>
           <div>
-            <img src={InstagramPosts} alt="Instagram posts" />
+            <img
+              src={InstagramPosts}
+              alt="Instagram posts"
+              className={styles.instaPosts}
+            />
           </div>
         </div>
 

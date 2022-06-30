@@ -21,9 +21,6 @@ const Organizers: React.FC = () => {
           <div className={styles.profileName}>Etunimi Sukunimi</div>
           <div className={styles.profileEmail}>[ email@email.com ]</div>
         </div>
-      </div>
-
-      <div className={styles.people}>
         <div className={styles.profile}>
           <div className={styles.profileImg}></div>
           <div className={styles.profileName}>Etunimi Sukunimi</div>
