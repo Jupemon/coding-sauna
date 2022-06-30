@@ -13,6 +13,29 @@ const Supporters: React.FC = () => {
     <div className={styles.supporters}>
       <h1>Our supporters</h1>
 
+      <div className={styles.logos}>
+        <a href="https://tamperees.com/">
+          <img src={TreLogo} alt="Tre's logo" className={styles.logoLink} />
+        </a>
+        <a href="https://tribetampere.com/">
+          <img src={TribeLogo} alt="Tribe's logo" className={styles.logoLink} />
+        </a>
+        <a href="https://tampere.games/">
+          <img
+            src={TampereGamehubLogo}
+            alt="Tampere Gamehub's logo"
+            className={styles.logoLink}
+          />
+        </a>
+        <a href="https://dashboa.com/">
+          <img
+            src={DashboaLogo}
+            alt="Dashboa's logo"
+            className={styles.logoLink}
+          />
+        </a>
+      </div>
+
       <Carousel>
         <CarouselItem width={"10%"}>
           <div className={styles.card}>

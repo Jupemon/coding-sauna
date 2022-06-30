@@ -1,20 +1,19 @@
 .carousel {
   overflow: hidden;
   display: flex;
-  gap: 3rem;
   margin-top: 7.5rem;
+  justify-content: center;
   padding-bottom: 13rem;
 }
 
 .inner {
-  width: 140rem;
+  width: 135rem;
   white-space: nowrap;
   transition: transform 0.3s;
 }
 
 .carouselItem {
   display: inline-flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -23,4 +22,10 @@
   border: none;
   cursor: pointer;
   z-index: 100;
+}
+
+@media (max-width: 90rem) {
+  .carousel {
+    display: none;
+  }
 }
