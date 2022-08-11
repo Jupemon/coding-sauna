@@ -29,8 +29,8 @@ const Header = () => {
           <div className={styles.infomation}>
             <p className={styles.subtitle}>&lt;When&gt;</p>
             <p className={styles.description}>
-              Every Monday, 17:30 <br />
-              //Doors will be open until 18:00! Please arrive on time.
+              Every Monday, 17:00 <br />
+              //If the doors are locked, you can send a msg to the telegram chat so someone will open the door.
             </p>
           </div>
         </div>

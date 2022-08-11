@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
       <div className={styles.heading}>
         <a href="/">Home</a>
         <a href="#organizers">About Us</a>
-        <a href="#news">News</a>
+       { /* <a href="#news">News</a>*/}
       </div>
     </div>
   );

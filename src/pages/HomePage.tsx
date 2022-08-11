@@ -14,7 +14,7 @@ const HomePage = () => {
       <Venue />
       <Organizers />
       <Supporters />
-      <News />
+      {/*<News />*/}
       <Footer />
     </div>
   );
