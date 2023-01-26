@@ -17,7 +17,7 @@ const Organizers: React.FC = () => {
         <div className={styles.profile}>
           <div className={styles.profileImg}><img style={{height:"100%", width:"100%", borderRadius:"50%"}} src={juho_t}/></div>
           <div className={styles.profileName}>Juho Tapio</div>
-          <div className={styles.profileEmail}>[ sekopaa247@gmail.com ]</div>
+          <div className={styles.profileEmail}>[ ********* ]</div>
         </div>
         <div className={styles.profile}>
           <div className={styles.profileImg}><img style={{height:"100%", width:"100%", borderRadius:"50%"}} src={tri}/></div>
