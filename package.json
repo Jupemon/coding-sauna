@@ -2,7 +2,7 @@
   "name": "coding-sauna-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jupemon.github.io/jupemon.github.io",
+  "homepage": "https://jupemon.github.io/coding-sauna/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
